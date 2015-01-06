@@ -9,8 +9,8 @@
 // it from being updated in the future.
 
 
-#ifndef TANKDRIVE_H
-#define TANKDRIVE_H
+#ifndef JoystickDrive_H
+#define JoystickDrive_H
 
 
 #include "Commands/Subsystem.h"
@@ -21,9 +21,9 @@
  *
  * @author ExampleAuthor
  */
-class tankDrive: public Command {
+class JoystickDrive: public Command {
 public:
-	tankDrive();
+	JoystickDrive();
 	virtual void Initialize();
 	virtual void Execute();
 	virtual bool IsFinished();
